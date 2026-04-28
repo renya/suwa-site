@@ -98,23 +98,29 @@
       text-align: center;
     }
 
+    /* ===== 透過ボタン ===== */
     .button {
       display: inline-flex;
       align-items: center;
       gap: 8px;
       padding: 14px 22px;
-      border: 1px solid var(--line);
       border-radius: 999px;
       color: var(--text);
       text-decoration: none;
-      background: rgba(255, 255, 255, 0.06);
-      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+
+      backdrop-filter: blur(6px);
+
+      transition: all 0.25s ease;
     }
 
     .button:hover {
       transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.08);
       border-color: var(--accent);
-      background: rgba(143, 183, 255, 0.12);
+      box-shadow: 0 0 12px rgba(143, 183, 255, 0.25);
     }
 
     .button span {
