@@ -5,92 +5,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>suwa.info</title>
-  <meta name="description" content="suwa.info">
+  <meta name="description" content="信州諏訪圏の情報を順次公開しています。まずは、下諏訪を中心に。">
 
   <style>
+    :root {
+      --bg: #0b0b0f;
+      --text: #ffffff;
+      --muted: rgba(255, 255, 255, 0.78);
+      --line: rgba(255, 255, 255, 0.18);
+      --panel: rgba(13, 13, 18, 0.72);
+      --accent: #8fb7ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: #0b0b0f;
-      color: #ffffff;
+      background: var(--bg);
+      color: var(--text);
     }
 
-    /* ===== ヘッダー（写真部分） ===== */
     .hero {
-      height: 60vh;
-      background-image: url("assets/takashimajho-sakura-1.jpg"); /* ←ここに画像 */
+      min-height: 72vh;
+      background-image: url("assets/takashimajo-sakura-1.jpg");
       background-size: cover;
       background-position: center;
       position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: grid;
+      place-items: center;
+      padding: 48px 20px;
+      overflow: hidden;
     }
 
-    /* 暗めオーバーレイ（文字を見やすく） */
-    .hero::after {
+    .hero::before {
       content: "";
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.45);
+      background:
+        linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.22),
+          rgba(0, 0, 0, 0.58)
+        ),
+        radial-gradient(
+          circle at center,
+          rgba(255, 255, 255, 0.06),
+          rgba(0, 0, 0, 0.35)
+        );
     }
 
     .hero-content {
       position: relative;
+      width: min(680px, 100%);
+      padding: 42px 28px;
       text-align: center;
-      z-index: 1;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
     }
 
-    .hero h1 {
-      font-size: 40px;
-      margin-bottom: 12px;
+    .site-label {
+      margin: 0 0 14px;
+      font-size: 13px;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(42px, 8vw, 72px);
+      line-height: 1;
       letter-spacing: 0.05em;
+      text-shadow: 0 3px 18px rgba(0, 0, 0, 0.35);
     }
 
-    .hero p {
-      color: #ddd;
+    .lead {
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.9;
     }
 
-    /* ===== 下のコンテンツ ===== */
     .container {
-      max-width: 560px;
+      max-width: 680px;
       margin: 0 auto;
-      padding: 60px 20px 80px;
+      padding: 48px 20px 72px;
       text-align: center;
     }
 
-    a {
-      display: inline-block;
-      padding: 12px 18px;
-      border: 1px solid #333;
-      border-radius: 8px;
-      color: #ffffff;
+    .button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 22px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--text);
       text-decoration: none;
-      background: #14141a;
+      background: rgba(255, 255, 255, 0.06);
+      transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
     }
 
-    a:hover {
-      border-color: #7aa2ff;
-      background: #1a1a22;
+    .button:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+      background: rgba(143, 183, 255, 0.12);
+    }
+
+    .button span {
+      color: var(--accent);
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        min-height: 68vh;
+      }
+
+      .hero-content {
+        padding: 34px 22px;
+        border-radius: 20px;
+      }
+
+      .lead {
+        font-size: 15px;
+      }
     }
   </style>
 </head>
 
 <body>
 
-  <!-- ===== ヘッダー画像 ===== -->
   <header class="hero">
     <div class="hero-content">
+      <p class="site-label">SHINSHU SUWA AREA</p>
       <h1>suwa.info</h1>
-      <p>信州諏訪圏の情報を順次公開しています。<br>
-      ますは、下諏訪を中心に。</p>
+      <p class="lead">
+        信州諏訪圏の情報を順次公開しています。<br>
+        まずは、下諏訪を中心に。
+      </p>
     </div>
   </header>
 
-  <!-- ===== 本文 ===== -->
   <main class="container">
-    <a href="https://shimosuwa.info/">
-      shimosuwa.info へ
+    <a class="button" href="https://shimosuwa.info/">
+      shimosuwa.info <span>へ</span>
     </a>
   </main>
 
