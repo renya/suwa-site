@@ -9,11 +9,8 @@
 
   <style>
     :root {
-      --bg: #0b0b0f;
       --text: #ffffff;
-      --muted: rgba(255, 255, 255, 0.82);
-      --line: rgba(255, 255, 255, 0.22);
-      --panel: rgba(13, 13, 18, 0.28);
+      --muted: rgba(255, 255, 255, 0.85);
       --accent: #8fb7ff;
     }
 
@@ -24,7 +21,6 @@
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: var(--bg);
       color: var(--text);
     }
 
@@ -34,39 +30,32 @@
       background-size: cover;
       background-position: center;
       position: relative;
+
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+
       padding: 40px 20px;
+      text-align: center;
     }
 
+    /* 軽い暗幕だけ残す */
     .hero::before {
       content: "";
       position: absolute;
       inset: 0;
-      background:
-        linear-gradient(
-          to bottom,
-          rgba(0, 0, 0, 0.15),
-          rgba(0, 0, 0, 0.45)
-        );
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.45)
+      );
     }
 
-    .hero-content {
+    .hero-inner {
       position: relative;
-      width: min(720px, 100%);
-      padding: 48px 32px;
-      text-align: center;
-
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 28px;
-
-      backdrop-filter: blur(4px);
-      -webkit-backdrop-filter: blur(4px);
-
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+      z-index: 1;
+      max-width: 720px;
     }
 
     .site-label {
@@ -81,7 +70,7 @@
       font-size: clamp(48px, 8vw, 80px);
       line-height: 1;
       letter-spacing: 0.05em;
-      text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 4px 20px rgba(0,0,0,0.6);
     }
 
     .lead {
@@ -90,12 +79,11 @@
       line-height: 1.9;
       color: var(--muted);
       font-weight: 600;
-      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+      text-shadow: 0 2px 12px rgba(0,0,0,0.6);
     }
 
-    /* ===== ボタン（写真を邪魔しない透過） ===== */
+    /* ===== ボタン（透過） ===== */
     .button {
-      position: relative;
       margin-top: 40px;
 
       display: inline-flex;
@@ -108,7 +96,7 @@
       text-decoration: none;
 
       background: transparent;
-      border: 1px solid rgba(255, 255, 255, 0.28);
+      border: 1px solid rgba(255,255,255,0.3);
 
       backdrop-filter: blur(6px);
       -webkit-backdrop-filter: blur(6px);
@@ -118,9 +106,9 @@
 
     .button:hover {
       transform: translateY(-2px);
-      background: rgba(255, 255, 255, 0.08);
+      background: rgba(255,255,255,0.08);
       border-color: var(--accent);
-      box-shadow: 0 0 12px rgba(143, 183, 255, 0.25);
+      box-shadow: 0 0 12px rgba(143,183,255,0.25);
     }
 
     .button span {
@@ -128,17 +116,8 @@
     }
 
     @media (max-width: 640px) {
-      .hero-content {
-        padding: 36px 24px;
-        border-radius: 22px;
-      }
-
       .lead {
         font-size: 15px;
-      }
-
-      .button {
-        margin-top: 32px;
       }
     }
   </style>
@@ -147,20 +126,20 @@
 <body>
 
   <header class="hero">
-    <div class="hero-content">
+    <div class="hero-inner">
       <p class="site-label">SHINSHU SUWA AREA</p>
+
       <h1>suwa.info</h1>
+
       <p class="lead">
         信州・諏訪圏の情報を順次公開しています。<br>
         まずは、下諏訪を中心に。
       </p>
+
+      <a class="button" href="https://shimosuwa.info/">
+        shimosuwa.info <span>へ</span>
+      </a>
     </div>
-
-    <!-- 👇 ボタンはhero内に配置 -->
-    <a class="button" href="https://shimosuwa.info/">
-      shimosuwa.info <span>へ</span>
-    </a>
-
   </header>
 
 </body>
