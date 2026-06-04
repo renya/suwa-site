@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>信州・諏訪｜suwa.info</title>
+  <meta name="description" content="信州・諏訪圏の情報を順次公開しています。まずは、下諏訪を中心に。">
+
+  <!-- favicon -->
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+
+  <style>
+    :root {
+      --text: #ffffff;
+      --muted: rgba(255, 255, 255, 0.85);
+      --accent: #8fb7ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+    }
+
+    .hero {
+      min-height: 100vh;
+      background-image: url("https://suwa.info/assets/takashimajo-sakura-1.jpg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* 軽い暗幕だけ残す */
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.45)
+      );
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 720px;
+    }
+
+    .site-label {
+      margin: 0 0 16px;
+      font-size: 13px;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(48px, 8vw, 80px);
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+
+    .lead {
+      margin: 28px 0 0;
+      font-size: 17px;
+      line-height: 1.9;
+      color: var(--muted);
+      font-weight: 600;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.6);
+    }
+
+    /* ===== ボタン（透過） ===== */
+    .button {
+      margin-top: 40px;
+
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 24px;
+
+      border-radius: 999px;
+      color: var(--text);
+      text-decoration: none;
+
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.3);
+
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+
+      transition: all 0.25s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,0.08);
+      border-color: var(--accent);
+      box-shadow: 0 0 12px rgba(143,183,255,0.25);
+    }
+
+    .button span {
+      color: var(--accent);
+    }
+
+    @media (max-width: 640px) {
+      .lead {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="site-label">SHINSHU SUWA AREA</p>
+
+      <h1>suwa.info/pages/</h1>
+
+      <p class="lead">
+        信州・諏訪圏の情報を順次公開しています。<br>
+        まずは、下諏訪を中心に。
+      </p>
+
+      <a class="button" href="https://shimosuwa.info/">
+        shimosuwa.info <span>へ</span>
+      </a>
+    </div>
+  </header>
+
+</body>
+</html>
