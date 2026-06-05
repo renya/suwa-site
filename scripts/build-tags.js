@@ -77,8 +77,8 @@ function buildTagPage(tagName, items) {
   <title>${tagName}｜suwa.info</title>
   <meta name="description" content="suwa.info内の「${tagName}」タグが付いたページリストです。">
 
-  <link rel="icon" href="https://shimosuwa.info/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://shimosuwa.info/favicon.png">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 
   <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
   <meta name="twitter:card" content="summary_large_image">
