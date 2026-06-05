@@ -42,8 +42,8 @@ const html = `<!DOCTYPE html>
   <title>信州・諏訪エリアの情報ページリスト｜suwa.info</title>
   <meta name="description" content="信州・諏訪エリアの情報ページリストを表示しています。">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="icon" href="https://shimosuwa.info/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://shimosuwa.info/favicon.png">
 
   <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
   <meta name="twitter:card" content="summary_large_image">
