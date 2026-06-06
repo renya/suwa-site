@@ -106,8 +106,8 @@ ${listHtml}
   <a href="https://shimosuwa.info/pages/タグ/" class="footer-link">
     タグ一覧へ→
   </a>
-<a href="/contact/" class="footer-banner">
-<img src="/assets/contact.png" alt="お問い合わせ">
+<a href="https://shimosuwa.info/contact/" class="footer-banner">
+<img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
 </a>
 </div>
 </main>

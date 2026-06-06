@@ -68,11 +68,10 @@ ${listHtml}
   <a href="https://shimosuwa.info/pages/" class="footer-link">
     下諏訪の情報へ→
   </a>
-<a href="/contact/" class="footer-banner">
-<img src="/assets/contact.png" alt="お問い合わせ">
+<a href="https://shimosuwa.info/contact/" class="footer-banner">
+<img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
 </a>
 </div>
-
   </main>
 </body>
 </html>
