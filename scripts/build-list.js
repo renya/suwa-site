@@ -61,6 +61,7 @@ const html = `<!DOCTYPE html>
 </p>
 
     <ul>
+    <li><a href="https://shimosuwa.info/list/">下諏訪の情報ページリスト</a></li>
 ${listHtml}
     </ul>
 
