@@ -2,6 +2,7 @@
   "scripts": {
     "build:list": "node scripts/build-list.js",
     "build:tags": "node scripts/build-tags.js",
-    "build": "node scripts/build-list.js && node scripts/build-tags.js"
+    "build:sitemap": "node scripts/build-sitemap.js",
+    "build": "node scripts/build-list.js && node scripts/build-tags.js && node scripts/build-sitemap.js"
   }
 }

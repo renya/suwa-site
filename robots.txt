@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /scripts/
+Disallow: /tools/
+
+Sitemap: https://suwa.info/sitemap.xml
