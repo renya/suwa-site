@@ -12,7 +12,8 @@ const allowedTags = new Set([
   "文化",
   "買い物",
   "宿泊",
-  "諏訪圏"
+  "諏訪圏",
+  "アルバム"
 ]);
 
 const tagPages = new Map();
