@@ -14,7 +14,8 @@ const allowedTags = new Set([
   "宿泊",
   "諏訪圏",
   "アルバム",
-  "温泉"
+  "温泉",
+  "ワイン"
 ]);
 
 const tagPages = new Map();
