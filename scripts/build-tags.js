@@ -87,7 +87,17 @@ function buildTagPage(tagName, items) {
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="stylesheet" href="https://shimosuwa.info/assets/css/style.css">
-</head>
+  
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6XFB1XKL4T"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6XFB1XKL4T');
+  </script>
+  </head>
 
 <body>
   <main class="container">
