@@ -119,6 +119,35 @@ li {
 }
 
 /* =========================
+   リンク一覧
+========================= */
+
+.link-list {
+  margin: 16px 0 24px;
+  padding-left: 1.4em;
+}
+
+.link-list li {
+  margin-bottom: 12px;
+}
+
+.link-list a {
+  font-weight: 500;
+}
+
+.link-list small {
+  display: block;
+  margin-top: 3px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.link-list small a {
+  font-weight: normal;
+}
+
+/* =========================
    画像
 ========================= */
 img {
