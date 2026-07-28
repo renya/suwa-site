@@ -147,6 +147,12 @@ li {
   font-weight: normal;
 }
 
+/* 直前のログ項目に関連する出来事 */
+.log-sub {
+  margin-left: 1.5em;
+  list-style-type: circle;
+}
+
 /* =========================
    ログ
 ========================= */
