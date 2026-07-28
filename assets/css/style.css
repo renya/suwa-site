@@ -147,9 +147,15 @@ li {
   font-weight: normal;
 }
 
-/* 直前のログ項目に関連する出来事 */
+/* 関連するログ項目（HTMLのネストは行わず、直前の項目に属する内容を表現） */
 .log-sub {
   margin-left: 1.5em;
+  list-style-type: circle;
+}
+
+/* 3階層目のログ項目（3階層までを想定。それ以上はHTMLのネストを使用） */
+.log-sub2 {
+  margin-left: 3.0em;
   list-style-type: circle;
 }
 
