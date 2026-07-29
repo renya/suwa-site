@@ -1,3 +1,5 @@
+/* CSS for suwa.info */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -17,7 +19,7 @@ html {
 .container {
   max-width: 720px;
   margin: 48px auto;
-  padding: 48px 28px 64px;
+  padding: 48px 28px 40px;
   background: #fff;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -147,18 +149,6 @@ li {
   font-weight: normal;
 }
 
-/* 関連するログ項目（HTMLのネストは行わず、直前の項目に属する内容を表現） */
-.log-sub {
-  margin-left: 1.5em;
-  list-style-type: circle;
-}
-
-/* 3階層目のログ項目（3階層までを想定。それ以上はHTMLのネストを使用） */
-.log-sub2 {
-  margin-left: 3.0em;
-  list-style-type: circle;
-}
-
 /* =========================
    ログ
 ========================= */
@@ -170,6 +160,55 @@ li {
 
 .log li {
   margin-bottom: 4px;
+}
+
+/* 関連するログ項目（HTMLのネストは行わず、直前の項目に属する内容を表現） */
+.log-sub {
+  margin-left: 1.5em;
+  list-style-type: circle;
+}
+
+/* 3階層目のログ項目 */
+.log-sub2 {
+  margin-left: 3.0em;
+  list-style-type: circle;
+}
+
+/* 4階層目のログ項目 (4階層までを想定。それ以上はHTMLのネストを使用) */
+.log-sub3 {
+  margin-left: 4.5em;
+  list-style-type: circle;
+}
+
+/* 引用用class */
+.cite {
+  color: #666;
+  font-size: 0.95em;
+}
+
+.cite::before {
+  content: "↗ ";
+}
+
+/* コメントclass */
+.remark {
+    color: #666;
+}
+.remark::before {
+    content: "💬 ";
+}
+
+/* 引用への注記class */
+.cite small {
+  display: block;
+  margin-top: 3px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.cite small a {
+  font-weight: normal;
 }
 
 /* =========================
