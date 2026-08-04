@@ -109,7 +109,6 @@ function buildTagPage(tagName, items) {
 </p>
 
     <ul>
-    <li><a href="https://shimosuwa.info/list/${tagName}/">${tagName}｜shimosuwa.info</a></li>
 ${listHtml}
     </ul>
 
