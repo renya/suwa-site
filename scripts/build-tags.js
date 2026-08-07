@@ -93,7 +93,7 @@ let listHtml = uniqueItems.map(item => {
 
 if (linkedTags.has(tagName)) {
   listHtml =
-    `      <li>▶<a href="https://shimosuwa.info/list/${tagName}/">下諏訪の${tagName}ページリスト</a>◀</li>\n`
+    `      <li>▶<a href="https://shimosuwa.info/list/${tagName}/">下諏訪の${tagName}ページリスト</a></li>\n`
     + listHtml;
 }
 
