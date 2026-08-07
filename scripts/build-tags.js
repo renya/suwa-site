@@ -119,14 +119,14 @@ if (linkedTags.has(tagName)) {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-6XFB1XKL4T');
   </script>
   </head>
-
 <body>
+
   <main class="container">
-    <h1>${tagName}</h1>
+
+  <h1>${tagName}</h1>
 
 <p class="description">
   <a href="https://shimosuwa.info/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
