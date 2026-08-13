@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>諏訪湖間欠泉センター｜suwa.info</title>
+  <meta name="description" content="">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="https://shimosuwa.info/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6XFB1XKL4T"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6XFB1XKL4T');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>諏訪湖間欠泉センター</h1>
+
+<div class="tags">
+  <a class="tag" href="https://shimosuwa.info/pages/温泉/">温泉</a>
+</div>
+
+    <p class="description">
+        昭和58年(1983)に温泉掘削中に間欠泉が噴出。平成2年(1990)に間欠泉センターが開館。
+        噴出当初は約50mの高さまで自噴し、世界第2位の高さと言われましたが、次第に自噴間隔が長くなり、やがて高く自噴する事はなくなりました。
+    </p>
+
+    <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/spa/kanketsusen-1.jpg" alt="">
+  <figcaption>
+    <a href="/pages/諏訪湖/">諏訪湖</a>側から見た間欠泉センター
+    <small></small>
+  </figcaption>
+</figure>
+<figure>
+  <img src="https://i.suwa.info/p/spa/kanketsusen-2.jpg" alt="">
+  <figcaption>
+    間欠泉の様子
+    <small></small>
+  </figcaption>
+</figure>
+    </div>
+
+    <h2>関連リンク</h2>
+
+    <div class="list">
+      <a href="https://www.city.suwa.lg.jp/site/enjoy/4441.html" target="_blank" rel="noopener" class="card card-external">
+        <div class="card-title">諏訪湖間欠泉センター - 諏訪市公式ホームページ</div>
+        <div class="card-desc"></div>
+      </a>
+    </div>
+
+<ul class="link-list">
+<li><a href="https://news.ntv.co.jp/category/society/bb9de211d29e40cf8cc0d76c6e720f59" target="_blank" rel="noopener">あの温泉“噴出”は今…　“水柱”消え町は「平和」に　諏訪では名物「間欠泉」勢い落ち困惑（2022年12月8日掲載）｜日テレNEWS NNN</a><small>後半が間欠泉が2022年3月から高く上がらなくなったというニュース</small></li>
+</ul>
+
+<div class="footer-nav">
+      <a href="https://shimosuwa.info/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="https://shimosuwa.info/pages/温泉/" class="footer-link">
+        諏訪地方の温泉へ→
+      </a>
+      <a href="https://shimosuwa.info/contact/" class="footer-banner">
+        <img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

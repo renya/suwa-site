@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>八ヶ岳はらむらワイナリー｜suwa.info</title>
+  <meta name="description" content="八ヶ岳はらむらワイナリー">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="https://shimosuwa.info/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6XFB1XKL4T"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-6XFB1XKL4T');
+</script>
+
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>八ヶ岳はらむらワイナリー</h1>
+
+<div class="tags">
+  <a class="tag" href="https://shimosuwa.info/pages/諏訪の酒/">諏訪の酒</a>
+  <a class="tag" href="https://shimosuwa.info/pages/ワイン/">ワイン</a>
+</div>
+
+<div class="meta">
+  <div><span>住所:</span> 原村8926-1​</div>
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/suwa6.html?lat=35.96912759572854&lng=138.19322069474677&zoom=16&name=八ヶ岳はらむらワイナリー&points=map-data.js&type=sake" class="map-link" target="_blank">開く</a></div>
+</div>
+
+    <p class="description">
+        2022年に土建業の(株)昌栄により開設された諏訪地方初のワイナリー。
+    </p>
+   
+    <p>
+        2024年8月にたまたま行った茅野駅前での展示(第2回Super BELLVIA Market)で八ヶ岳はらむらワイナリーを知りました。
+        車で行っていた為、ぶどうジュースを飲み、同じぶどうを使ったという 夢見るワイン Merlot を購入しました。
+        展示では、甘味がアルコールになることや、2022年の開設以降この地域で3軒のワイナリーが生まれたことなどの説明を聞きました。
+        家で買ってきたワインを飲んでみて美味しかったので、その後も何度か買うようにしています。
+        買う場所としてはワイナリーに行ってもいいですし、茅野駅前の<a href="/pages/モン蓼科/">モン蓼科</a>や<a href="/pages/たてしな自由農園_原村店/">たてしな自由農園</a>などで買っています。
+    </p>
+
+    <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/food/yatsugatake-haramura-winery.jpg" alt="お店外観">
+  <figcaption>
+    ワイナリー外観。奥に工場がある手前の事務所の受付部分で販売をしている感じ。4種類の試飲が出来る他、ここでしか買えない限定品もあるとの事
+    <small></small>
+  </figcaption>
+</figure>
+<figure>
+  <img src="https://i.suwa.info/p/food/yumemiru-win.jpg" alt="夢見るワイン">
+  <figcaption>
+    <small></small>
+  </figcaption>
+</figure>
+    </div>
+
+    <h2>関連リンク</h2>
+
+<div class="list">
+
+  <a href="https://www.haramura-winery.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">八ヶ岳はらむらワイナリー、原村ワイン、原村ワイナリー | 八ヶ岳はらむらワイナリー | 長野県原村8926-1</div>
+    <div class="card-desc"></div>
+  </a>
+  <a href="https://www.instagram.com/yatsugatake.haramura.winery/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">Instagram</div>
+    <div class="card-desc">八ヶ岳はらむらワイナリー</div>
+  </a>
+</div>
+
+<br>
+<ul>
+<li><a href="https://www.nagano-wine.jp/special/winery/Vol86haramura.html" target="_blank" rel="noopener" >vol.86　八ヶ岳はらむらワイナリー 鎌倉 宏吉さん 標高1000m、さわやかな 高原のテロワールを求めて｜よみもの｜ワインのつくり手を訪ねて｜NAGANO WINEオフィシャルサイト</a></li>
+</ul>
+
+    <div class="footer-nav">
+      <a href="https://shimosuwa.info/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="https://shimosuwa.info/pages/ワイン/" class="footer-link">
+        ワインへ→
+      </a>
+      <a href="https://shimosuwa.info/contact/" class="footer-banner">
+        <img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

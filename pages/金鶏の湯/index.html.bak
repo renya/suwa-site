@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>金鶏の湯｜suwa.info</title>
+  <meta name="description" content="金鶏の湯">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="https://shimosuwa.info/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6XFB1XKL4T"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6XFB1XKL4T');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>金鶏の湯</h1>
+
+<div class="tags">
+  <a class="tag" href="https://shimosuwa.info/pages/温泉/">温泉</a>
+</div>
+
+<div class="meta">
+  <div><span>営業時間:</span> 9:00〜21:00</div>
+  <div><span>入浴料:</span> 大人 600円</div>
+  <div><span>定休日:</span> 水曜</div>
+  <div><span>住所:</span> <a href="/pages/茅野市/">茅野市</a>金沢2316-1</div>
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/suwa6.html?lat=35.94880485519289&lng=138.1889213227088&zoom=16&name=金鶏の湯" class="map-link" target="_blank">開く</a></div>
+  <div><span>備考:</span> アルカリ性単純温泉</div>
+</div>
+
+    <p class="description">
+      金沢温泉・金鶏の湯は平成8年(1996)11月にオープンした茅野市の福祉コミュニティ温泉。
+      6施設の内3番目に開設された。
+    </p>
+
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/spa/kinkei.jpg" alt="外観">
+    </div>
+
+        <h2>関連リンク</h2>
+
+<div class="list">
+  <a href="https://www.city.chino.lg.jp/soshiki/chiikifukushi/1359.html" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">金沢温泉金鶏の湯（かなざわおんせんきんけいのゆ） - 茅野市ホームページ（社会福祉課）</div>
+    <div class="card-desc"></div>
+  </a>
+</div>
+
+    <div class="footer-nav">
+      <a href="https://shimosuwa.info/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/pages/茅野市の温泉/" class="footer-link">
+        茅野市の温泉へ→
+      </a>
+      <a href="https://shimosuwa.info/contact/" class="footer-banner">
+        <img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

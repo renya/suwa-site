@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>高天｜suwa.info</title>
+  <meta name="description" content="高天">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="https://shimosuwa.info/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6XFB1XKL4T"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-6XFB1XKL4T');
+</script>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>高天</h1>
+
+<div class="tags">
+  <a class="tag" href="https://shimosuwa.info/pages/諏訪の酒/">諏訪の酒</a>
+  <a class="tag" href="https://shimosuwa.info/pages/酒蔵/">諏訪の酒蔵</a>
+</div>
+
+    <p class="description">
+      岡谷に2蔵ある内の1蔵。明治4年創業。
+    </p>
+
+<div class="meta">
+  <div><span>営業時間:</span> 8:00〜17:00</div>
+  <div><span>定休日:</span> 土曜 / 日曜 / 祝日</div>
+  <div><span>住所:</span> <a href="/pages/岡谷市/">岡谷市</a>銀座2-2-17</div>
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/suwa6.html?lat=36.06810887090729&lng=138.0541797408433&zoom=16&name=高天&points=map-data.js&type=sake" class="map-link" target="_blank">開く</a></div>
+  <div><span>備考:</span> 髙天酒造株式会社</div>
+</div>
+
+<p>
+髙天 純米辛口は地元の会合や宴会で見かけることが多く、地域に根付いた銘柄という印象があります。
+</p>
+
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/food/koten.jpg" alt="お店外観">
+    </div>
+
+        <h2>関連リンク</h2>
+
+<div class="list">
+  <a href="https://koten-sake.co.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">信州諏訪の酒 - 髙天酒造株式会社</div>
+    <div class="card-desc"></div>
+  </a>
+</div>
+
+    <div class="footer-nav">
+      <a href="https://shimosuwa.info/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="https://shimosuwa.info/pages/酒蔵/" class="footer-link">
+        諏訪の酒蔵へ→
+      </a>
+      <a href="https://shimosuwa.info/contact/" class="footer-banner">
+        <img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
