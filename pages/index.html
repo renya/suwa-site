@@ -4,130 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>信州・諏訪｜suwa.info</title>
-  <meta name="description" content="信州・諏訪圏の情報を順次公開しています。まずは、下諏訪を中心に。">
-  <meta http-equiv="refresh" content="0; url=https://shimosuwa.info/pages/">
-  <link rel="canonical" href="https://shimosuwa.info/pages/">
+  <title>諏訪圏の情報｜suwa.info</title>
+  <meta name="description" content="信州・諏訪の6市町村に関する情報を掲載しています。">
 
   <!-- favicon -->
-<link rel="icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
-<link rel="apple-touch-icon" href="/favicon.png">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 
-  <style>
-    :root {
-      --text: #ffffff;
-      --muted: rgba(255, 255, 255, 0.85);
-      --accent: #8fb7ff;
-    }
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
 
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      color: var(--text);
-    }
-
-    .hero {
-      min-height: 100vh;
-      background-image: url("https://suwa.info/assets/takashimajo-sakura-1.jpg");
-      background-size: cover;
-      background-position: center;
-      position: relative;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    /* 軽い暗幕だけ残す */
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(0,0,0,0.2),
-        rgba(0,0,0,0.45)
-      );
-    }
-
-    .hero-inner {
-      position: relative;
-      z-index: 1;
-      max-width: 720px;
-    }
-
-    .site-label {
-      margin: 0 0 16px;
-      font-size: 13px;
-      letter-spacing: 0.18em;
-      color: var(--muted);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(48px, 8vw, 80px);
-      line-height: 1;
-      letter-spacing: 0.05em;
-      text-shadow: 0 4px 20px rgba(0,0,0,0.6);
-    }
-
-    .lead {
-      margin: 28px 0 0;
-      font-size: 17px;
-      line-height: 1.9;
-      color: var(--muted);
-      font-weight: 600;
-      text-shadow: 0 2px 12px rgba(0,0,0,0.6);
-    }
-
-    /* ===== ボタン（透過） ===== */
-    .button {
-      margin-top: 40px;
-
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 14px 24px;
-
-      border-radius: 999px;
-      color: var(--text);
-      text-decoration: none;
-
-      background: transparent;
-      border: 1px solid rgba(255,255,255,0.3);
-
-      backdrop-filter: blur(6px);
-      -webkit-backdrop-filter: blur(6px);
-
-      transition: all 0.25s ease;
-    }
-
-    .button:hover {
-      transform: translateY(-2px);
-      background: rgba(255,255,255,0.08);
-      border-color: var(--accent);
-      box-shadow: 0 0 12px rgba(143,183,255,0.25);
-    }
-
-    .button span {
-      color: var(--accent);
-    }
-
-    @media (max-width: 640px) {
-      .lead {
-        font-size: 15px;
-      }
-    }
-  </style>
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6XFB1XKL4T"></script>
@@ -135,30 +24,80 @@
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-
 gtag('config', 'G-6XFB1XKL4T');
 </script>
-
 </head>
-
 <body>
 
-  <header class="hero">
-    <div class="hero-inner">
-      <p class="site-label">SHINSHU SUWA AREA</p>
+  <main class="container">
 
-      <h1>suwa.info/pages/</h1>
+    <h1>諏訪圏の情報</h1>
 
-      <p class="lead">
-        信州・諏訪圏の情報を順次公開しています。<br>
-        まずは、下諏訪を中心に。
-      </p>
+    <p class="description">
+      信州・諏訪の6市町村に関する情報を掲載しています。
+    </p>
 
-      <a class="button" href="https://shimosuwa.info/pages/">
-        shimosuwa.info <span>へ</span>
+<div class="list">
+      <a href="https://shimosuwa.info/pages/" class="card card-hub">
+        <div class="card-title">下諏訪町</div>
+          <div class="card-desc">姉妹サイトである『下諏訪の情報｜shimosuwa.info』にて紹介しています</div>
+      </a>
+
+      <a href="https://suwa.info/pages/岡谷市/" class="card card-hub">
+        <div class="card-title">岡谷市</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="https://suwa.info/pages/諏訪市/" class="card card-hub">
+        <div class="card-title">諏訪市</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="https://suwa.info/pages/茅野市/" class="card card-hub">
+        <div class="card-title">茅野市</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="https://suwa.info/pages/富士見町/" class="card card-hub">
+        <div class="card-title">富士見町</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="https://suwa.info/pages/原村/" class="card card-hub">
+        <div class="card-title">原村</div>
+          <div class="card-desc"></div>
+      </a>
+</div>
+
+<h2 id="リスト">ページリスト・姉妹サイト</h2>
+
+<div class="list">
+
+  <a href="/list/" class="card card-hub">
+    <div class="card-title">全ページリスト</div>
+    <div class="card-desc"></div>
+  </a>
+
+  <a href="/pages/タグ/" class="card card-hub">
+    <div class="card-title">タグ一覧</div>
+    <div class="card-desc">タグごとに関連ページを整理</div>
+  </a>
+
+  <a href="http://www.renya.com/pages/" target="_blank" rel="noopener" class="card card-post">
+    <div class="card-title">雑記と記録｜renya.com</div>
+    <div class="card-desc">諏訪圏以外の話題はこちら</div>
+  </a>
+
+</div>
+
+<div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        諏訪圏の情報へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
       </a>
     </div>
-  </header>
-
+  </main>
 </body>
 </html>

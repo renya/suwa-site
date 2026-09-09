@@ -131,7 +131,7 @@ if (linkedTags.has(tagName)) {
   <h1>${tagName}</h1>
 
 <p class="description">
-  <a href="https://shimosuwa.info/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
+  <a href="/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
   ${uniqueItems.length}ページ
 </p>
 
@@ -140,10 +140,10 @@ ${listHtml}
     </ul>
 
 <div class="footer-nav">
-  <a href="https://shimosuwa.info/pages/" class="footer-link">
-    下諏訪の情報へ→
+  <a href="/pages/" class="footer-link">
+    諏訪圏の情報へ→
   </a>
-  <a href="https://shimosuwa.info/pages/タグ/" class="footer-link">
+  <a href="/pages/タグ/" class="footer-link">
     タグ一覧へ→
   </a>
 <a href="https://shimosuwa.info/contact/" class="footer-banner">

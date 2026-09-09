@@ -39,8 +39,8 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>信州・諏訪エリアの情報ページリスト｜suwa.info</title>
-  <meta name="description" content="信州・諏訪エリアの情報ページリストを表示しています。">
+  <title>諏訪圏の情報ページリスト｜suwa.info</title>
+  <meta name="description" content="信州・諏訪圏の情報ページリストを表示しています。">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -63,10 +63,10 @@ const html = `<!DOCTYPE html>
 
 <body>
   <main class="container">
-    <h1>信州・諏訪エリアの情報ページリスト</h1>
+    <h1>諏訪圏の情報ページリスト</h1>
 
 <p class="description">
-  <a href="/pages/">信州・諏訪エリアの情報</a>ページリストを表示しています。<br>
+  <a href="/pages/">諏訪圏の情報</a>ページリストを表示しています。<br>
   ${items.length}ページ
 </p>
 
@@ -76,8 +76,8 @@ ${listHtml}
     </ul>
 
 <div class="footer-nav">
-  <a href="https://shimosuwa.info/pages/" class="footer-link">
-    下諏訪の情報へ→
+  <a href="/pages/" class="footer-link">
+    諏訪圏の情報へ→
   </a>
 <a href="https://shimosuwa.info/contact/" class="footer-banner">
 <img src="https://shimosuwa.info/assets/contact.png" alt="お問い合わせ">
