@@ -37,15 +37,18 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
-  margin: 32px 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 32px 0 12px;
+  color: #222;
 }
 
 h3 {
-  font-size: 16px;
-  font-weight: 600;
-  margin: 16px 0 6px;
-  color: #444;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px 0 8px;
+  color: #222;
 }
 
 .description {
